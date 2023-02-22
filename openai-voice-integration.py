@@ -29,7 +29,7 @@ from diffusers import StableDiffusionPipeline, EulerDiscreteScheduler
 warnings.filterwarnings("ignore")
 
 import openai
-openai.api_key="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"
+openai.api_key=""
 
 model = whisper.load_model("base")
 
